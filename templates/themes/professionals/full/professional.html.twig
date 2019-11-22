@@ -1,0 +1,68 @@
+{% extends "@ezdesign/pagelayout.html.twig" %}
+
+{% block page_head %}
+    {% set title = ez_content_name(content) %}
+    {{ parent() }}
+{% endblock %}
+
+{% block content %}
+<div class="page page__professionals_detail">
+    <div class="professionals__header">
+        <h1 class="text-center">Professionals</h1>
+    </div>
+    <div class="container">
+        <div class="row professionals__container">
+            <div class="col-md-3">
+                <div class="professionals__container__left">
+                    <div class="professionals_detail__image">
+                        {{ ez_render_field(content, 'photo', {
+                            parameters: {
+                                alias: 'professional_photo',
+                                class: 'img-fluid'
+                            }
+                        }) }}
+                    </div>
+
+                    <div class="professionals_detail__name">
+                        {{ content.getFieldValue('name').text }}
+                    </div>
+
+                    <div class="professionals_detail__intro">
+                        {{ ez_render_field(content, 'intro') }}
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="professionals__container__right">
+                    <div class="professionals_detail__about">
+                        <span class="professionals_detail__about__label">About</span>
+
+                        {{ ez_render_field(content, 'description') }}
+                    </div>
+
+                    <div class="professionals_detail__inspirations">
+                        <span class="professionals_detail__inspirations__label">Portfolio</span>
+                        <div class="professionals_detail__inspirations_list">
+                            {% set inspirations = ez_field_value(content, 'inspirations').destinationContentIds %}
+
+                            {% for contentId in inspirations %}
+                                {% set inspirationContent = app_content_by_content_id(contentId) %}
+                                <div class="inspiration">
+                                    <a href="{{ path('ez_urlalias', {'contentId': contentId}) }}">
+                                        {{ ez_render_field(inspirationContent, 'image', {
+                                            parameters: {
+                                                alias: 'inspiration_small_card',
+                                                class: 'img-fluid'
+                                            }
+                                        }) }}
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

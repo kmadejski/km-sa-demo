@@ -1,3 +1,9 @@
+parameters:
+    # Top menu parameters
+    app.top_menu.parent_location_id: 2
+    app.top_menu.included_content_type_identifier: ["folder", "inspiration_list"]
+
+
 services:
     # default configuration for services in *this* file
     _defaults:
@@ -18,6 +24,9 @@ services:
         arguments:
             $topMenuParentLocationId: '%app.top_menu.parent_location_id%'
             $topMenuContentTypeIdentifier: '%app.top_menu.included_content_type_identifier%'
+
+    App\Controller\ProfessionalsController:
+        public: true
 
     App\Controller\ContactFormController:
         public: true

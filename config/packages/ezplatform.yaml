@@ -39,10 +39,6 @@ parameters:
     # issues both in AdminUI and REST calls
     ezpublish_rest.csrf_token_intention: authenticate
 
-    # Top menu parameters
-    app.top_menu.parent_location_id: 2
-    app.top_menu.included_content_type_identifier: ["folder", "inspiration_list"]
-
     # Location Ids of allowed user groups for viewing Articles with premium content
     # 12 - members, 13 administrator_users, 14 - editors
     app.premium_content.allowed_user_groups.location_ids: [12, 13, 14]
@@ -125,7 +121,7 @@ ezplatform:
             design: maison
             content:
                 tree_root:
-                    location_id: 104
+                    location_id: 180
 
         admin_group:
             # System languages. Note that by default, content, content types, and other data are in eng-GB locale,
@@ -161,7 +157,7 @@ ezplatform:
             design: professionals
             content:
                 tree_root:
-                    location_id: 105
+                    location_id: 181
 
     url_alias:
         slug_converter:

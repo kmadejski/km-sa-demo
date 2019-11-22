@@ -11,7 +11,8 @@
         }
     ],
     "repositories": [
-        { "type": "composer", "url": "https://updates.ez.no/ttl" }
+        { "type": "composer", "url": "https://updates.ez.no/ttl" },
+        { "type": "git", "url": "https://github.com/damianz5/ezmigrationbundle.git" }
     ],
     "require": {
         "php": "^7.3",
@@ -43,7 +44,7 @@
         "platformsh/symfonyflex-bridge": "^2.1",
         "sensio/framework-extra-bundle": "^5.1",
         "gregwar/captcha-bundle": "^2.0",
-        "kaliop/ezmigrationbundle": "dev-ezplatform3.0-support",
+        "kaliop/ezmigrationbundle": "dev-ezp3-kernel-3.x",
         "sensiolabs/security-checker": "^5.0",
         "symfony/asset": "^4.3",
         "symfony/cache": "^4.3",

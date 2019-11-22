@@ -8,7 +8,9 @@ declare(strict_types=1);
 
 namespace App\Twig;
 
+use eZ\Publish\API\Repository\Values\Content\Content;
 use eZ\Publish\API\Repository\Values\Content\ContentInfo;
+use eZ\Publish\API\Repository\Values\Content\Location;
 use Twig\Extension\AbstractExtension;
 use Twig\TwigFunction;
 use eZ\Publish\API\Repository\LocationService as LocationServiceInterface;
@@ -57,6 +59,8 @@ final class ContentInfoByLocationIdExtension extends AbstractExtension
         return [
             new TwigFunction('app_content_info_by_location_id', [$this, 'contentInfoByLocationId']),
             new TwigFunction('app_content_info_by_content_id', [$this, 'contentInfoByContentId']),
+            new TwigFunction('app_content_by_content_id', [$this, 'contentByContentId']),
+            new TwigFunction('app_location_by_location_id', [$this, 'locationByLocationId']),
         ];
     }
 
@@ -88,5 +92,15 @@ final class ContentInfoByLocationIdExtension extends AbstractExtension
     public function contentInfoByContentId($contentId): ContentInfo
     {
         return $this->contentService->loadContent($contentId)->getVersionInfo()->getContentInfo();
+    }
+
+    public function locationByLocationId($locationId): Location
+    {
+        return $this->locationService->loadLocation($locationId);
+    }
+
+    public function contentByContentId(int $contentId): Content
+    {
+        return $this->contentService->loadContent($contentId);
     }
 }

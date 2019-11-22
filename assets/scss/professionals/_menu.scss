@@ -1,0 +1,104 @@
+.menu {
+  padding: 0;
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  li {
+    padding: 3px 0;
+  }
+
+  & > li.collapse > ul.submenu {
+    display: none;
+  }
+
+  .submenu,
+  .subsubmenu {
+    list-style: none;
+    padding-inline-start: 20px;
+  }
+
+  .menu__item__name {
+    font-size: 14pt;
+  }
+
+  .submenu__item__name a {
+    font-size: 13pt;
+    color: #000;
+  }
+
+  .submenu .subsubmenu a {
+    font-size: 12pt;
+    color: #000;
+  }
+
+  .active > a,
+  .menu__item__name.active,
+  .active > .submenu__item .submenu__item__name > a {
+    font-weight: bold;
+  }
+
+  .menu__item {
+    position: relative;
+  }
+
+  & > li > .menu__item > .menu__item__toggler,
+  .submenu > li .submenu__item > .submenu__item__toggler {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding-right: 90px;
+  }
+
+  & > li > .menu__item > .menu__item__toggler {
+    padding: 0 0 0 15px;
+    right: 0px;
+    top: 3px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 22px;
+  }
+
+  & > li.expand > .menu__item > .menu__item__toggler {
+    background-image: url('/assets/images/layout/expand.png');
+  }
+
+  & > li.collapse > .menu__item > .menu__item__toggler {
+    background-image: url('/assets/images/layout/collapse.png');
+  }
+
+  .submenu {
+
+    & > li > .submenu__item {
+      position: relative;
+    }
+
+    & > li > .submenu__item .submenu__item__toggler {
+      padding: 0 0 0 15px;
+      right: -1px;
+      top: 0;
+      position: absolute;
+      font-weight: normal;
+      height: 20px;
+      width: 20px;
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: center;
+    }
+
+    & > li.expand > .submenu__item .submenu__item__toggler {
+      background-image: url('/assets/images/layout/minus.png');
+    }
+
+    & > li.collapse > .submenu__item .submenu__item__toggler {
+      background-image: url('/assets/images/layout/plus.png');
+    }
+
+  }
+}

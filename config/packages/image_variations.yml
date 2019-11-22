@@ -27,3 +27,22 @@ ezpublish:
                     filters:
                         - {name: geometry/scalewidth, params: [281]}
                         - {name: geometry/crop, params: [281, 181, 0, 0]}
+
+                catalog_card:
+                    reference: null
+                    filters:
+                        - {name: geometry/scalewidth, params: [281]}
+                        - {name: geometry/crop, params: [281, 181, 0, 0]}
+
+                inspiration_small_card:
+                    reference: null
+                    filters:
+                        - {name: geometry/scaleheight, params: [80]}
+                        - {name: geometry/crop, params: [80, 80, 0, 0]}
+
+                professional_photo:
+                    reference: null
+                    filters:
+                        - {name: geometry/scaleheight, params: [300]}
+                        - {name: geometry/crop, params: [300, 300, 0, 0]}
+
