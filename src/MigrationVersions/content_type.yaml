@@ -475,6 +475,24 @@
             position: 4
             field-settings: {  }
             validator-configuration: {  }
+        -
+            identifier: inspirations
+            type: ezobjectrelationlist
+            name:
+                eng-GB: Inspirations
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 5
+            field-settings:
+                selectionMethod: 0
+                selectionDefaultLocation: null
+                selectionContentTypes: [inspiration]
+            validator-configuration:
+                RelationListValueValidator: { selectionLimit: 0 }
 
 -
     type: content_type

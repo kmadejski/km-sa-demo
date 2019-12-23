@@ -9,3 +9,15 @@
 "https://www.{default}/":
     type: redirect
     to: "https://{default}/"
+
+"https://admin.{default}/":
+    type: redirect
+    to: "https://{default}/"
+
+"https://maison.{default}/":
+    type: redirect
+    to: "https://{default}/"
+
+"https://professionals.{default}/":
+    type: redirect
+    to: "https://{default}/"

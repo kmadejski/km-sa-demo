@@ -18,6 +18,7 @@ Encore.addEntry('maison', [
     ])
     .addEntry('professionals', [
         path.resolve(__dirname, './assets/scss/professionals/professionals.scss'),
+        path.resolve(__dirname, './assets/js/professionals/menu.js'),
     ]);
 
 const projectConfig = Encore.getWebpackConfig();

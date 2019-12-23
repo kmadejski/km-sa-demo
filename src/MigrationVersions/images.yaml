@@ -1383,46 +1383,1167 @@
             attribute: content_id
 #        tags: {  }
 
+## Professionals images
 -
     type: content
     mode: create
     content_type: image
-    parent_location: reference:ref_folder__media__images
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
     priority: 0
     is_hidden: false
     sort_field: name
     sort_order: ASC
-    remote_id: bd840a24d5d053e935ae0f262d04fcef
-    location_remote_id: b3f87d005457cf4b27ed8ade51f98dc6
     section: 3
     object_states: {  }
     lang: eng-GB
-    owner: 14
     always_available: true
     attributes:
-        name: professional-3.jpeg
+        name: 1.jpg
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/professional-3.jpeg
-            filename: professional-3.jpeg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/1.jpg
+            filename: 1.jpg
             alternativeText: ''
-#        tags: {  }
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__1
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__1
+            attribute: content_id
 -
     type: content
     mode: create
     content_type: image
-    parent_location: reference:ref_folder__media__images
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
     priority: 0
     is_hidden: false
     sort_field: name
     sort_order: ASC
-    remote_id: c810da29dca31d0bacfe4a78dd8e6380
-    location_remote_id: 245dcd54a39ef955e45a0548f992db9c
     section: 3
     object_states: {  }
     lang: eng-GB
-    owner: 14
+    always_available: true
+    attributes:
+        name: 10.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/10.jpg
+            filename: 10.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__10
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__10
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 11.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/11.jpg
+            filename: 11.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__11
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__11
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 12.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/12.jpg
+            filename: 12.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__12
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__12
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 13.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/13.jpg
+            filename: 13.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__13
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__13
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 14.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/14.jpg
+            filename: 14.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__14
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__14
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 15.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/15.jpg
+            filename: 15.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__15
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__15
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 16.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/16.jpg
+            filename: 16.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__16
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__16
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 17.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/17.jpg
+            filename: 17.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__17
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__17
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 18.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/18.jpg
+            filename: 18.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__18
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__18
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 19.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/19.jpg
+            filename: 19.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__19
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__19
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 2.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/2.jpg
+            filename: 2.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__2
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__2
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 20.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/20.jpg
+            filename: 20.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__20
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__20
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 21.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/21.jpg
+            filename: 21.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__21
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__21
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 22.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/22.jpg
+            filename: 22.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__22
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__22
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 23.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/23.jpg
+            filename: 23.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__23
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__23
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 24.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/24.jpg
+            filename: 24.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__24
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__24
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 25.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/25.jpg
+            filename: 25.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__25
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__25
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 26.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/26.jpg
+            filename: 26.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__26
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__26
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 27.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/27.jpg
+            filename: 27.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__27
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__27
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 28.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/28.jpg
+            filename: 28.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__28
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__28
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 29.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/29.jpg
+            filename: 29.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__29
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__29
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 3.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/3.jpg
+            filename: 3.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__3
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__3
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 30.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/30.jpg
+            filename: 30.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__30
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__30
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 31.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/31.jpg
+            filename: 31.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__31
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__31
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 32.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/32.jpg
+            filename: 32.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__32
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__32
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 33.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/33.jpg
+            filename: 33.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__33
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__33
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 34.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/34.jpg
+            filename: 34.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__34
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__34
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 4.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/4.jpg
+            filename: 4.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__4
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__4
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 5.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/5.jpg
+            filename: 5.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__5
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__5
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 6.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/6.jpg
+            filename: 6.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__6
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__6
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 7.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/7.jpg
+            filename: 7.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__7
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__7
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 8.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/8.jpg
+            filename: 8.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__8
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__8
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 9.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/9.jpg
+            filename: 9.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__9
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__9
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: andre-furtado.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/andre-furtado.jpg
+            filename: andre-furtado.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__andre_furtado
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__andre_furtado
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: christian-buehner.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/christian-buehner.jpg
+            filename: christian-buehner.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__christian_buehner
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__christian_buehner
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: josh-howard.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/josh-howard.jpg
+            filename: josh-howard.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__josh_howard
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__josh_howard
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: jurica-koletic.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/jurica-koletic.jpg
+            filename: jurica-koletic.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__jurica_koletic
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__jurica_koletic
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: lucas-sankey.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/lucas-sankey.jpg
+            filename: lucas-sankey.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__lucas_sankey
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__lucas_sankey
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: michael-dam.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/michael-dam.jpg
+            filename: michael-dam.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__michael_dam
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__michael_dam
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: michael-frattaroli.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/michael-frattaroli.jpg
+            filename: michael-frattaroli.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__michael_frattaroli
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__michael_frattaroli
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
     always_available: true
     attributes:
         name: professional-1.jpeg
@@ -1432,22 +2553,25 @@
             path: vendor/ezsystems/ezplatform-demo-assets/images/pros/professional-1.jpeg
             filename: professional-1.jpeg
             alternativeText: ''
-#        tags: {  }
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__professional_1
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__professional_1
+            attribute: content_id
 -
     type: content
     mode: create
     content_type: image
-    parent_location: reference:ref_folder__media__images
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
     priority: 0
     is_hidden: false
     sort_field: name
     sort_order: ASC
-    remote_id: e9e766bd0c52336e630cc038358dac03
-    location_remote_id: 4670ba52dbf44d6940f35313a9d37661
     section: 3
     object_states: {  }
     lang: eng-GB
-    owner: 14
     always_available: true
     attributes:
         name: professional-2.jpeg
@@ -1457,7 +2581,972 @@
             path: vendor/ezsystems/ezplatform-demo-assets/images/pros/professional-2.jpeg
             filename: professional-2.jpeg
             alternativeText: ''
-#        tags: {  }
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__professional_2
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__professional_2
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: professional-3.jpeg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/professional-3.jpeg
+            filename: professional-3.jpeg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__professional_3
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__professional_3
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: ramy-kabalan.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/ramy-kabalan.jpg
+            filename: ramy-kabalan.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__ramy_kabalan
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__ramy_kabalan
+            attribute: content_id
+
+
+
+
+
+# professional catalog
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 1.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/1.jpg
+            filename: 1.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__1
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__1
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 2.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/2.jpg
+            filename: 2.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__2
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__2
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 3.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/3.jpg
+            filename: 3.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__3
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__3
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 4.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/4.jpg
+            filename: 4.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__4
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__4
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 5.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/5.jpg
+            filename: 5.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__5
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__5
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 6.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/6.jpg
+            filename: 6.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__6
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__6
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 7.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/7.jpg
+            filename: 7.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__7
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__7
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 8.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/8.jpg
+            filename: 8.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__8
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__8
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 9.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/9.jpg
+            filename: 9.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__9
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__9
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 10.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/10.jpg
+            filename: 10.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__10
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__10
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 11.png
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/11.png
+            filename: 11.png
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__11
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__11
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 12.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/12.jpg
+            filename: 12.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__12
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__12
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 13.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/13.jpg
+            filename: 13.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__13
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__13
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 14.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/14.jpg
+            filename: 14.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__14
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__14
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 15.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/15.jpg
+            filename: 15.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__15
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__15
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 16.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/16.jpg
+            filename: 16.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__16
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__16
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 17.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/17.jpg
+            filename: 17.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__17
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__17
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 18.png
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/18.png
+            filename: 18.png
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__18
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__18
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 19.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/19.jpg
+            filename: 19.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__19
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__19
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 20.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/20.jpg
+            filename: 20.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__20
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__20
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 21.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/21.jpg
+            filename: 21.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__21
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__21
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 22.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/22.jpg
+            filename: 22.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__22
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__22
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 23.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/23.jpg
+            filename: 23.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__23
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__23
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 24.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/24.jpg
+            filename: 24.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__24
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__24
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 25.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/25.jpg
+            filename: 25.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__25
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__25
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 26.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/26.jpg
+            filename: 26.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__26
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__26
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 27.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/27.jpg
+            filename: 27.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__27
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__27
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 28.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/28.jpg
+            filename: 28.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__28
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__28
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 29.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/29.jpg
+            filename: 29.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__29
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__29
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 30.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/30.jpg
+            filename: 30.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__30
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__30
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 31.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/31.jpg
+            filename: 31.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__31
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__31
+            attribute: content_id
+-
+    type: content
+    mode: create
+    content_type: image
+    parent_location: 'reference:ref_location_folder__media__images__professionals__catalog'
+    priority: 0
+    is_hidden: false
+    sort_field: name
+    sort_order: ASC
+    section: 3
+    object_states: {  }
+    lang: eng-GB
+    always_available: true
+    attributes:
+        name: 32.jpg
+        caption:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image:
+            path: vendor/ezsystems/ezplatform-demo-assets/images/32.jpg
+            filename: 32.jpg
+            alternativeText: ''
+    references:
+        -
+            identifier: ref_location_image__media__images__professionals__catalog__32
+            attribute: location_id
+        -
+            identifier: ref_content_image__media__images__professionals__catalog__32
+            attribute: content_id
+
 
 #logo
 -

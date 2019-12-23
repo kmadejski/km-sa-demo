@@ -8,5 +8,12 @@
 {% block content %}
 <div class="page">
     <h1 class="text-center">Professionals!</h1>
+    <div class="container">
+        {{ render_esi(controller('App\\Controller\\ProfessionalsController::getMenuAction', {
+            template: '@ezdesign/parts/render_professionals_catalog.html.twig',
+            pathString: ezplatform.rootLocation.pathString,
+            rootLocationId: ezplatform.rootLocation.id
+        })) }}
+    </div>
 </div>
 {% endblock %}

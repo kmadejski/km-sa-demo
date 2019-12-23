@@ -67,6 +67,50 @@
     owner: 14
     always_available: true
     attributes:
+        name: Professionals
+        description:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image: null
+    references:
+        -
+            identifier: ref_location_folder__media__images__professionals
+            attribute: location_id
+
+-
+    type: content
+    mode: create
+    content_type: folder
+    parent_location: reference:ref_location_folder__media__images__professionals
+    priority: 0
+    is_hidden: false
+    sort_field: path
+    sort_order: ASC
+    section: reference:ref_section__media
+    owner: 14
+    always_available: true
+    attributes:
+        name: 'Catalog'
+        description:
+            xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
+        image: null
+    references:
+        -
+            identifier: ref_location_folder__media__images__professionals__catalog
+            attribute: location_id
+
+-
+    type: content
+    mode: create
+    content_type: folder
+    parent_location: reference:ref_folder__media__images
+    priority: 0
+    is_hidden: false
+    sort_field: path
+    sort_order: ASC
+    section: reference:ref_section__media
+    owner: 14
+    always_available: true
+    attributes:
         name: Logo
         description:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"

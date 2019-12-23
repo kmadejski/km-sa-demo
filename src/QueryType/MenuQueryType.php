@@ -11,6 +11,7 @@ namespace App\QueryType;
 use eZ\Publish\Core\QueryType\QueryType;
 use eZ\Publish\API\Repository\Values\Content\Query;
 use eZ\Publish\API\Repository\Values\Content\LocationQuery;
+use eZ\Publish\API\Repository\Values\Content\Query\Criterion\Operator as CriterionOperator;
 use eZ\Publish\API\Repository\Values\Content\Query\SortClause;
 
 final class MenuQueryType implements QueryType
@@ -33,15 +34,26 @@ final class MenuQueryType implements QueryType
      */
     public function getQuery(array $parameters = []): LocationQuery
     {
-        $criteria = new Query\Criterion\LogicalAnd([
+        $criteria = [
             new Query\Criterion\Visibility(Query\Criterion\Visibility::VISIBLE),
-            new Query\Criterion\ParentLocationId($parameters['parent_location_id']),
             new Query\Criterion\ContentTypeIdentifier($parameters['included_content_type_identifier']),
             new Query\Criterion\LanguageCode($this->languages),
-        ]);
+        ];
+
+        if (!empty($parameters['path_string'])) {
+            $criteria[] = new Query\Criterion\Subtree($parameters['path_string']);
+        }
+
+        if (!empty($parameters['parent_location_id'])) {
+            $criteria[] = new Query\Criterion\ParentLocationId($parameters['parent_location_id']);
+        }
+
+        if (!empty($parameters['depth'])) {
+            $criteria[] = new Query\Criterion\Location\Depth(CriterionOperator::LTE, $parameters['depth']);
+        }
 
         $options = [
-            'filter' => $criteria,
+            'filter' => new Query\Criterion\LogicalAnd($criteria),
             'sortClauses' => [
                 new SortClause\Location\Priority(LocationQuery::SORT_ASC),
             ],

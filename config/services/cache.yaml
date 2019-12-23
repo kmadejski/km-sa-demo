@@ -1,0 +1,16 @@
+parameters:
+    # 604800 seconds = 7 days
+    app.cache_expiration_time: 604800
+
+services:
+    _defaults:
+        autowire: false
+        autoconfigure: true
+
+    App\Service\Cache\CacheService:
+        arguments:
+            $cacheExpirationTime: '%app.cache_expiration_time%'
+            $cacheItemPool: '@ezpublish.cache_pool'
+
+    App\Service\Cache\CacheServiceInterface:
+        alias: App\Service\Cache\CacheService

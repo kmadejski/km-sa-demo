@@ -1,0 +1,35 @@
+<div class="card__professional">
+    <a href="{{ path(location) }}" class="card__link">
+        <div class="inspirations">
+            {% set inspirations = ez_field_value(content, 'inspirations').destinationContentIds|slice(0, 3) %}
+
+            {% for inspiration in inspirations %}
+                {% set inspirationContent = app_content_by_content_id(inspiration) %}
+
+                <div class="inspiration">
+                    {{ ez_render_field(inspirationContent, 'image', {
+                        parameters: {
+                            alias: 'inspiration_small_card',
+                            class: 'img-fluid'
+                        }
+                    }) }}
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="card__professional__image img-fluid-container">
+            {{ ez_render_field(content, 'photo') }}
+        </div>
+        <div class="card__professional__text card__text--overlap">
+            <div class="card__professional__title">
+                <h3 class="card__heading heading-sm">{{ ez_render_field(content, 'name') }}</h3>
+            </div>
+            <div class="card__professional__jobtitle">
+                {{ ez_render_field(content, 'intro') }}
+            </div>
+            <div class="card__professional__desc">
+                {{ ez_render_field(content, 'description')|previewPremiumContent(1) }}
+            </div>
+        </div>
+    </a>
+</div>

@@ -60,13 +60,43 @@ ezplatform:
             content_view:
                 full:
                     home:
-                        controller: "ez_query:contentQueryAction"
                         template: "@ezdesign/full/home.html.twig"
                         match:
                             Identifier\ContentType: home
+
+                    folder:
+                        controller: "ez_query:pagingQueryAction"
+                        template: "@ezdesign/full/folder.html.twig"
+                        match:
+                            Identifier\ContentType: folder
                         params:
+                            limit: 12
                             query:
                                 query_type: "App:Children"
                                 parameters:
-                                    parent_location_id: "@=location.id"
+                                    path_string: "@=location.pathString"
+                                    depth: 6
+                                    included_content_type_identifier: 'professional'
                                 assign_results_to: professionals
+
+                    professional:
+                        template: "@ezdesign/full/professional.html.twig"
+                        match:
+                            Identifier\ContentType: professional
+
+                card:
+                    professional:
+                        template: "@ezdesign/card/professional.html.twig"
+                        match:
+                            Identifier\ContentType: professional
+
+                    inspiration:
+                        template: "@ezdesign/card/inspiration.html.twig"
+                        match:
+                            Identifier\ContentType: inspiration
+
+                catalog_card:
+                    folder:
+                        template: "@ezdesign/catalog_card/folder.html.twig"
+                        match:
+                            Identifier\ContentType: folder
