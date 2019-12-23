@@ -1,0 +1,22 @@
+@import "assets/scss/_fonts.scss";
+
+body {
+    font-family: $fira-sans;
+    $color: $grey-light;
+}
+
+a {
+    color: $blue-lighter;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.font-weight-bold {
+    font-weight: 600!important;
+}
+
+video {
+    max-width: 100%;
+}

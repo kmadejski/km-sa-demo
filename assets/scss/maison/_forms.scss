@@ -1,0 +1,22 @@
+.form {
+    &--search {
+        max-width: 395px;
+
+        input[type="search"] {
+            font-size: 14px;
+            line-height: 20px;
+            color: $grey-light;
+            border: 1px solid #c9c9c9;
+            height: 40px;
+            padding-left: 27px;
+        }
+        .icon-search {
+            position: absolute;
+            right: 24px;
+            top: 5px;
+            z-index: 5;
+            color: #c9c9c9;
+            font-size: 30px;
+        }
+    }
+}

@@ -1,0 +1,127 @@
+$carousel: '.carousel';
+
+#{($carousel)} {
+    &__menu-item {
+        max-width: 128px;
+        height: 128px;
+        border-radius: 8px;
+        border: 1px solid $white-whisper;
+        margin: 0 8px;
+        overflow: hidden;
+        padding: 0;
+
+        &:hover {
+            border-color: $blue-lighter;
+        }
+    }
+
+    &__menu-link {
+        color: $grey-dark;
+        padding: 15px;
+        display: flex;
+        height: 100%;
+
+        &:hover {
+            color: $blue-lighter;
+            text-decoration: none;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #{($carousel)}--menu {
+        #{($carousel)}-inner {
+            #{($carousel)}-item {
+                & > div {
+                    display: none;
+                }
+
+                & > div:first-child {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+#{($carousel)}--menu {
+    #{($carousel)} {
+        &-inner {
+            padding-left: 55px;
+        }
+        &-item {
+            &.active,
+            &-next,
+            &-prev {
+                display: flex;
+            }
+        }
+        &-control {
+            &-next,
+            &-prev {
+                border: 1px solid $white-whisper;
+                border-radius: 8px;
+                width: 48px;
+                background-color: $white;
+                opacity: 1;
+                color: $white-whisper;
+
+                &:hover {
+                    border-color: $blue-lighter;
+                    color: $blue-lighter;
+                }
+            }
+        }
+    }
+}
+
+/* medium - display 4  */
+@media (min-width: 768px) {
+    #{($carousel)}--menu {
+        #{($carousel)}-inner {
+            #{($carousel)}-item {
+                &-right.active,
+                &-next {
+                    transform: translateX(20%);
+                }
+                &-left.active,
+                &-prev {
+                    transform: translateX(-20%);
+                }
+            }
+        }
+    }
+}
+
+/* large - display 6 */
+@media (min-width: 992px) {
+    #{($carousel)}--menu {
+        #{($carousel)}-inner {
+            #{($carousel)} {
+                &-item {
+                    &-right.active,
+                    &-next {
+                        transform: translateX(15.580%);
+                        overflow: hidden;
+                    }
+                    &-left.active,
+                    &-prev {
+                        transform: translateX(-15.580%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+#{($carousel)}--menu {
+    #{($carousel)}-inner {
+        #{($carousel)} {
+            &-item {
+                &-right, &-left {
+                    transform: translateX(0);
+                }
+            }
+        }
+    }
+}

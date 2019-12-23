@@ -1,0 +1,15 @@
+<div class="card">
+    <a href="{{ path(location) }}" class="card__link">
+        <div class="card__image img-fluid-container">
+            {{ ez_render_field(content, 'image') }}
+        </div>
+        <div class="card__text card__text--overlap box-shadow">
+            <div class="card__title">
+                <h3 class="card__heading heading-sm">{{ ez_render_field(content, 'name') }}</h3>
+            </div>
+            <div class="card__desc">
+                {{ ez_render_field(content, 'intro') }}
+            </div>
+        </div>
+    </a>
+</div>

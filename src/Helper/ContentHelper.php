@@ -8,40 +8,51 @@ declare(strict_types=1);
 
 namespace App\Helper;
 
-use eZ\Publish\API\Repository\SearchService as SearchServiceInterface;
-use eZ\Publish\API\Repository\Values\Content\Query;
+use eZ\Publish\API\Repository\ContentService as ContentServiceInterface;
+use eZ\Publish\API\Repository\Values\Content\Content;
+use Psr\Container\ContainerInterface;
+use Symfony\Contracts\Service\ServiceSubscriberInterface;
 
-class ContentHelper
+final class ContentHelper implements ServiceSubscriberInterface
 {
-    /** @var \eZ\Publish\API\Repository\SearchService */
-    private $searchService;
+    /** @var \Psr\Container\ContainerInterface */
+    private $locator;
 
-    /**
-     * @param \eZ\Publish\API\Repository\SearchService $searchService
-     */
-    public function __construct(SearchServiceInterface $searchService)
+    public function __construct(ContainerInterface $locator)
     {
-        $this->searchService = $searchService;
+        $this->locator = $locator;
     }
 
     /**
-     * @param \eZ\Publish\API\Repository\Values\Content\Query $query
-     *
-     * @return \eZ\Publish\API\Repository\Values\Content\Content[]
-     *
-     * @throws \eZ\Publish\API\Repository\Exceptions\InvalidArgumentException
+     * @throws \eZ\Publish\API\Repository\Exceptions\NotFoundException
+     * @throws \eZ\Publish\API\Repository\Exceptions\UnauthorizedException
      */
-    public function findContentItems(Query $query): array
+    public function getContentFieldValue(int $contentId, string $fieldName): string
     {
-        $searchHits = $this->searchService->findContent($query)->searchHits;
+        $content = $this->loadContent($contentId);
 
-        $contentArray = [];
+        return $content->getFieldValue($fieldName)->__toString();
+    }
 
-        foreach ($searchHits as $searchHit) {
-            $content = $searchHit->valueObject;
-            $contentArray[] = $content;
-        }
+    /**
+     * Returns content object based on content id.
+     *
+     * @return \eZ\Publish\API\Repository\Values\Content\Content
+     * @throws \eZ\Publish\API\Repository\Exceptions\NotFoundException
+     * @throws \eZ\Publish\API\Repository\Exceptions\UnauthorizedException
+     */
+    public function loadContent(int $contentId): Content
+    {
+        return $this->locator->get(ContentServiceInterface::class)->loadContent($contentId);
+    }
 
-        return $contentArray;
+    /**
+     * @inheritDoc
+     */
+    public static function getSubscribedServices(): array
+    {
+        return [
+            ContentServiceInterface::class,
+        ];
     }
 }

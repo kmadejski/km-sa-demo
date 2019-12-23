@@ -6,18 +6,18 @@ services:
 
     App\Installer\PlatformEEDemoInstaller:
         autowire: true
-        autoconfigure: false
-        parent: EzSystems\PlatformInstallerBundle\Installer\DbBasedInstaller
+        parent: EzSystems\PlatformInstallerBundle\Installer\CoreInstaller
+        class: App\Installer\PlatformEEDemoInstaller
         calls:
             - [setEnvironment, ["%kernel.environment%"]]
         tags:
             - { name: ezplatform.installer, type: ezplatform-ee-demo }
 
-    App\Installer\PlatformEEDemoTestLayoutsInstaller:
-        autowire: true
-        autoconfigure: false
-        parent: EzSystems\PlatformInstallerBundle\Installer\DbBasedInstaller
-        calls:
-            - [setEnvironment, ["%kernel.environment%"]]
-        tags:
-            - { name: ezplatform.installer, type: demo-test-layouts }
+#    App\Installer\PlatformEEDemoTestLayoutsInstaller:
+#        autowire: true
+#        autoconfigure: false
+#        parent: EzSystems\PlatformInstallerBundle\Installer\DbBasedInstaller
+#        calls:
+#            - [setEnvironment, ["%kernel.environment%"]]
+#        tags:
+#            - { name: ezplatform.installer, type: demo-test-layouts }

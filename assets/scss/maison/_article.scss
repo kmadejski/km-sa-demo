@@ -1,0 +1,20 @@
+$article: '.article';
+
+#{($article)} {
+    margin-bottom: 80px;
+
+    &--full-page {
+        #{($article)} {
+            &__title {
+                font-size: 43px;
+                color: $grey-light;
+            }
+            &__image {
+                margin: 72px 0 64px;
+            }
+            &__desc {
+                margin-top: 44px;
+            }
+        }
+    }
+}

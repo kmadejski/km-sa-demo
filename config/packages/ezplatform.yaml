@@ -48,14 +48,7 @@ parameters:
 
     # Top menu parameters
     app.top_menu.parent_location_id: 2
-    app.top_menu.included_content_type_identifier: ["folder", "article", "place_list", "product_list", "blog", "about", "landing_page"]
-
-    # Subscribe location id: 227 - demo, 228 - ee demo
-    ezsettings.default.app_subscribe_location_id: 232
-
-    # locationIds used for fetching items on home page
-    app.home.place_list_location_id: 223
-    app.home.tastes_location_id: 207
+    app.top_menu.included_content_type_identifier: ["folder", "inspiration_list"]
 
     # form builder
     ezsettings.default.form_builder.forms_location_id: 239
@@ -66,11 +59,8 @@ parameters:
 
     app.migration_reference_file: '/src/MigrationVersions/References/references.yml'
 
-    app.migration.values_mapping:
-        app.home.place_list_location_id: 'ref_location_place_list__home__places_and_tastes__places'
-        app.home.tastes_location_id: 'ref_location_folder__home__places_and_tastes__tastes'
-        ezsettings.default.form_builder.forms_location_id: 'ref_location_folder__forms'
-        ezsettings.default.app_subscribe_location_id: 'ref_location_subscribe__home__subscribe'
+#    app.migration.values_mapping:
+#        ezsettings.default.form_builder.forms_location_id: 'ref_location_folder__forms'
 
     # e-mail address used for form submission
     app.contact_form.sender_email: no-reply@ez.no
@@ -99,24 +89,27 @@ ezplatform:
     # Siteaccess configuration, with one siteaccess per default
     siteaccess:
         list:
-            - site
+            - maison
             - admin
             - fr
             - de
             - no
+            - professionals
         groups:
             site_group:
-                - site
+                - maison
                 - fr
                 - de
                 - no
+                - professionals
             # WARNING: Do not remove or rename this group.
             # It's used to distinguish common siteaccesses from admin ones.
             # In case of multisite with multiple admin panels, remember to add any additional admin siteaccess to this group.
             admin_group: [admin]
-        default_siteaccess: site
+        default_siteaccess: maison
         match:
             URIElement: 1
+            HostElement: 1
 
     # System settings, read in following order: `default`, <siteaccess-group>, <siteacces>, and `global`
     # TIP: For multisite installations organize shared config into SiteAccess groups,
@@ -139,7 +132,10 @@ ezplatform:
                 # varnish_invalidate_token: '%varnish_invalidate_token%' # @todo enable ezplatform-http-cache first
 
         site_group:
-            design: main
+            design: maison
+            content:
+                tree_root:
+                    location_id: 104
 
         admin_group:
             # System languages. Note that by default, content, content types, and other data are in eng-GB locale,
@@ -157,8 +153,11 @@ ezplatform:
                     - 43 # Media
                     - 48 # Setup
                     - 249 # Forms
+            subtree_paths:
+                content: /1/2/
+                media: /1/43/
 
-        site:
+        maison:
             languages: [eng-GB, fre-FR, ger-DE, nor-NO]
 
         fr:
@@ -170,13 +169,21 @@ ezplatform:
         no:
             languages: [nor-NO, eng-GB]
 
+        professionals:
+            languages: [eng-GB]
+            design: professionals
+            content:
+                tree_root:
+                    location_id: 105
+
     url_alias:
         slug_converter:
             transformation: 'urlalias_lowercase'
 ezdesign:
     design_list:
-        main: [tastefulplanet]
-        admin: [admin, tastefulplanet]
+        maison: [maison]
+        admin: [admin, maison]
+        professionals: [professionals, maison]
 
 ez_platform_standard_design:
     # makes Kernel default templates (in EzPublishCoreBundle/Resources/views) part of standard Design
@@ -197,6 +204,13 @@ framework:
         #       default session name will be set to "eZSESSID{siteaccess_hash}" (unique session name per siteaccess)
         #       Further reading on sessions: http://doc.ezplatform.com/en/latest/guide/sessions/
     http_method_override: true
+    cache:
+        pools:
+            cache.array:
+                adapter: cache.adapter.array
+                default_lifetime: 3600
+                public: true
+                tags: true
 
 #nova_ezseo:
 #    system:

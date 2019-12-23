@@ -1,0 +1,28 @@
+.banner {
+    position: relative;
+    z-index: 1;
+
+    &__image {
+        opacity: 0.3;
+    }
+    &--full-width {
+        height: 306px;
+
+        img {
+            width: 100%;
+            height:306px;
+            object-fit: cover;
+        }
+    }
+    &__title {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        @include transform(-50%, -25%);
+        color: $grey-light;
+    }
+    &--map {
+        background-color: $white-smoke;
+    }
+}
+

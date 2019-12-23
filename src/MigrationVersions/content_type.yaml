@@ -1,0 +1,656 @@
+-
+    type: reference
+    mode: load
+    file: 'src/MigrationVersions/References/references.yml'
+    overwrite: true
+
+#inspiration_list content type
+-
+    type: content_type
+    mode: create
+    content_type_group: Content
+    identifier: inspiration_list
+    name: 'Inspirations List'
+    description: ''
+    name_pattern: '<name>'
+    url_name_pattern: ''
+    is_container: true
+    attributes:
+        -
+            identifier: name
+            type: ezstring
+            name:
+                eng-GB: Name
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 1
+            field-settings: {  }
+            validator-configuration:
+                StringLengthValidator: { maxStringLength: null, minStringLength: null }
+
+#inspiration content type
+-
+    type: content_type
+    mode: create
+    content_type_group: Content
+    identifier: inspiration
+    name:
+        eng-GB: Inspiration
+    description: {  }
+    name_pattern: '<name>'
+    url_name_pattern: ''
+    is_container: false
+    lang: eng-GB
+    attributes:
+        -
+            identifier: name
+            type: ezstring
+            name:
+                eng-GB: Name
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 1
+            field-settings: {  }
+            validator-configuration:
+                StringLengthValidator: { maxStringLength: null, minStringLength: null }
+        -
+            identifier: intro
+            type: eztext
+            name:
+                eng-GB: Intro
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 2
+            field-settings:
+                textRows: 10
+            validator-configuration: {  }
+        -
+            identifier: description
+            type: eztext
+            name:
+                eng-GB: Description
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 3
+            field-settings:
+                textRows: 10
+            validator-configuration: {  }
+        -
+            identifier: image
+            type: ezimageasset
+            name:
+                eng-GB: Image
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 4
+            field-settings: {  }
+            validator-configuration: {  }
+
+#store list content type
+-
+    type: content_type
+    mode: create
+    content_type_group: Content
+    identifier: store_list
+    name:
+        eng-GB: 'Store List'
+    description: {  }
+    name_pattern: '<name>'
+    url_name_pattern: ''
+    is_container: true
+    lang: eng-GB
+    attributes:
+        -
+            identifier: name
+            type: ezstring
+            name:
+                eng-GB: Name
+            description: {  }
+            required: true
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 1
+            field-settings: {  }
+            validator-configuration:
+                StringLengthValidator: { maxStringLength: null, minStringLength: null }
+        -
+            identifier: title
+            type: ezstring
+            name:
+                eng-GB: Title
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 2
+            field-settings: {  }
+            validator-configuration:
+                StringLengthValidator: { maxStringLength: null, minStringLength: null }
+        -
+            identifier: banner
+            type: ezimage
+            name:
+                eng-GB: Banner
+            description: {  }
+            required: true
+            searchable: false
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 3
+            field-settings: {  }
+            validator-configuration:
+                FileSizeValidator: { maxFileSize: null }
+
+#store content type
+-
+    type: content_type
+    mode: create
+    content_type_group: Content
+    identifier: store
+    name:
+        eng-GB: Store
+    description: {  }
+    name_pattern: '<name>'
+    url_name_pattern: ''
+    is_container: false
+    lang: eng-GB
+    attributes:
+        -
+            identifier: name
+            type: ezstring
+            name:
+                eng-GB: Name
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 1
+            field-settings: {  }
+            validator-configuration:
+                StringLengthValidator: { maxStringLength: null, minStringLength: null }
+        -
+            identifier: intro
+            type: eztext
+            name:
+                eng-GB: Intro
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 2
+            field-settings:
+                textRows: 10
+            validator-configuration: {  }
+        -
+            identifier: description
+            type: ezrichtext
+            name:
+                eng-GB: Description
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 3
+            field-settings: { }
+            validator-configuration: {  }
+        -
+            identifier: country
+            type: ezcountry
+            name:
+                eng-GB: Country
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 4
+            field-settings: {}
+            validator-configuration: {  }
+        -
+            identifier: email
+            type: ezemail
+            name:
+                eng-GB: Contact email
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 5
+            field-settings: {}
+            validator-configuration: {  }
+        -
+            identifier: maplocation
+            type: ezgmaplocation
+            name:
+                eng-GB: Map location
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 6
+            field-settings: {}
+            validator-configuration: {  }
+        -
+            identifier: featuredProducts
+            type: ezobjectrelationlist
+            name:
+                eng-GB: Featured Products
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 7
+            field-settings: {}
+            validator-configuration: {  }
+        -
+            identifier: premiumStore
+            type: ezboolean
+            name:
+                eng-GB: Premium Store
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 8
+            field-settings: {}
+            validator-configuration: {  }
+        -
+            identifier: workinghours
+            type: ezmatrix
+            name:
+                eng-GB: Working hours
+            description: {  }
+            required: false
+            searchable: false
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 9
+            field-settings:
+                minimum_rows: 1
+                columns:
+                  [{ name: Day, identifier: day },
+                   { name: From, identifier: from },
+                   { name: To, identifier: to }]
+            validator-configuration: {  }
+        -
+            identifier: storeArea
+            type: ezinteger
+            name:
+                eng-GB: Store area
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 10
+            field-settings: {}
+            validator-configuration: {  }
+        -
+            identifier: floors
+            type: ezinteger
+            name:
+                eng-GB: Floors
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 11
+            field-settings: {}
+            validator-configuration: {  }
+        -
+            identifier: contactInfo
+            type: ezmatrix
+            name:
+                eng-GB: Contact Info
+            description: {  }
+            required: false
+            searchable: false
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 12
+            field-settings:
+                minimum_rows: 1
+                columns:
+                    [{ name: Department name, identifier: departmentName },
+                    { name: Email, identifier: email },
+                    { name: Phone, identifier: phone }]
+            validator-configuration: {  }
+        -
+            identifier: tags
+            type: ezobjectrelationlist
+            name:
+                eng-GB: Tags
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 13
+            field-settings: {}
+            validator-configuration: {  }
+        -
+            identifier: video
+            type: ezmedia
+            name:
+                eng-GB: Video
+            description: 'Video review of the store'
+            required: false
+            searchable: false
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 14
+            field-settings: {}
+            validator-configuration: {  }
+        -
+            identifier: opensince
+            type: ezdate
+            name:
+                eng-GB: Open Since
+            description: {}
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 15
+            field-settings: {}
+            validator-configuration: {  }
+
+#professional content type
+-
+    type: content_type
+    mode: create
+    content_type_group: Professionals
+    identifier: professional
+    name:
+        eng-GB: Professional
+    description: {  }
+    name_pattern: '<name>'
+    url_name_pattern: ''
+    is_container: false
+    lang: eng-GB
+    attributes:
+        -
+            identifier: name
+            type: ezstring
+            name:
+                eng-GB: Name
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 1
+            field-settings: {  }
+            validator-configuration:
+                StringLengthValidator: { maxStringLength: null, minStringLength: null }
+        -
+            identifier: intro
+            type: eztext
+            name:
+                eng-GB: Intro
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 2
+            field-settings:
+                textRows: 10
+            validator-configuration: {  }
+        -
+            identifier: description
+            type: ezrichtext
+            name:
+                eng-GB: Description
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 3
+            field-settings: {  }
+            validator-configuration: {  }
+        -
+            identifier: photo
+            type: ezimageasset
+            name:
+                eng-GB: Photo
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 4
+            field-settings: {  }
+            validator-configuration: {  }
+
+-
+    type: content_type
+    mode: create
+    content_type_group: Content
+    identifier: home
+    name:
+        eng-GB: Home
+    description:
+        eng-GB: 'A home entity used to set up structures for storing content entities (articles, etc.).'
+    name_pattern: '<short_name|name>'
+    url_name_pattern: null
+    is_container: true
+    lang: eng-GB
+    attributes:
+        -
+            identifier: name
+            type: ezstring
+            name:
+                eng-GB: Name
+            description:
+                eng-GB: 'Title shown on website.'
+            required: true
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 1
+            default-value: Folder
+            field-settings: {  }
+            validator-configuration:
+                StringLengthValidator: { maxStringLength: 255, minStringLength: null }
+        -
+            identifier: short_name
+            type: ezstring
+            name:
+                eng-GB: 'Short name'
+            description:
+                eng-GB: 'Descriptive title, non displayed.'
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 2
+            field-settings: {  }
+            validator-configuration:
+                StringLengthValidator: { maxStringLength: 100, minStringLength: null }
+        -
+            identifier: short_description
+            type: ezrichtext
+            name:
+                eng-GB: Summary
+            description:
+                eng-GB: 'Displayed as a separate paragraph at top.'
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 3
+            field-settings: {  }
+            validator-configuration: {  }
+        -
+            identifier: description
+            type: ezrichtext
+            name:
+                eng-GB: Description
+            description:
+                eng-GB: 'Body of text.'
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 4
+            field-settings: {  }
+            validator-configuration: {  }
+        -
+            identifier: image
+            type: ezimage
+            name:
+                eng-GB: Image
+            description:
+                eng-GB: 'Image for header.'
+            required: false
+            searchable: false
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 5
+            field-settings: {  }
+            validator-configuration:
+                FileSizeValidator: { maxFileSize: null }
+        -
+            identifier: show_children
+            type: ezboolean
+            name:
+                eng-GB: 'Display sub items'
+            description:
+                eng-GB: 'If checked folder items displayed.'
+            required: false
+            searchable: false
+            info-collector: false
+            disable-translation: true
+            category: content
+            position: 6
+            default-value: true
+            field-settings: {  }
+            validator-configuration: {  }
+        -
+            identifier: logo
+            type: ezimageasset
+            name:
+                eng-GB: Logo
+            description: {  }
+            required: false
+            searchable: true
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 7
+            field-settings: {  }
+            validator-configuration: {  }
+        -
+            identifier: css
+            type: eztext
+            name:
+                eng-GB: CSS
+            description: 'All css definitions in this field will be available in all pages of the site.'
+            required: false
+            searchable: false
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 8
+            field-settings:
+                textRows: 10
+            validator-configuration: {  }
+        -
+            identifier: js
+            type: eztext
+            name:
+                eng-GB: JS
+            description: 'All js definitions in this field will be available in all pages of the site.'
+            required: false
+            searchable: false
+            info-collector: false
+            disable-translation: false
+            category: content
+            position: 9
+            field-settings:
+                textRows: 10
+            validator-configuration: {  }
+#        -
+#            type: eztags
+#            name: tags
+#            identifier: tags
+#            category: content
+#            position: 10
+#            field-settings:
+#                hideRootTag: false
+#        -
+#            type: novaseometas
+#            name: Metas
+#            identifier: metas
+#            description: 'Metas for Search Engine Optimizations'
+#            required: false
+#            info-collector: false
+#            searchable: false # CANNOT be searchable
+#            disable-translation: false
+#            position: 100
+#            category: metadata
+
+-
+    type: reference
+    mode: save
+    file: 'src/MigrationVersions/References/references.yml'
+    overwrite: true
