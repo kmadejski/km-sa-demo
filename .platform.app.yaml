@@ -91,7 +91,7 @@ mounts:
         source: local
         source_path: graphql_types
 # Uncomment if you need to use Kaliop Migrations on your setup and not able to get it to write to "var" dir.
-    'src/AppBundle/MigrationVersions/References':
+    'src/MigrationVersions/References/':
         source: local
         source_path: MigrationVersionsReferences
 # Uncomment if you want to use DFS clustering, required if using Legacy Bridge on PE dedicated cluster setup.

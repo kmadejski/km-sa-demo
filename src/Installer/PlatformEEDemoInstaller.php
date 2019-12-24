@@ -62,7 +62,7 @@ class PlatformEEDemoInstaller extends CoreInstaller
     {
         $this->output->writeln('Copying storage directory contents...');
         $fs = new Filesystem();
-        $fs->mkdir('web/var/site');
+        $fs->mkdir('public/var/site');
 //        $fs->mirror(
 //            'vendor/ezsystems/ezstudio-demo-bundle-data/data/storage',
 //            'web/var/site/storage'

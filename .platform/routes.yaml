@@ -10,14 +10,20 @@
     type: redirect
     to: "https://{default}/"
 
-"https://admin.{default}/":
-    type: redirect
-    to: "https://{default}/"
-
 "https://maison.{default}/":
-    type: redirect
-    to: "https://{default}/"
+    type: upstream
+    upstream: "varnish:http"
+    cache:
+        enabled: false
 
 "https://professionals.{default}/":
-    type: redirect
-    to: "https://{default}/"
+    type: upstream
+    upstream: "varnish:http"
+    cache:
+        enabled: false
+
+"https://admin.{default}/":
+    type: upstream
+    upstream: "varnish:http"
+    cache:
+        enabled: false
