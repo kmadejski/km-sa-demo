@@ -27,7 +27,7 @@
         "ezsystems/ezplatform-calendar": "^1.0@dev",
         "ezsystems/ezplatform-core": "^2.0@dev",
         "ezsystems/ezplatform-cron": "^3.0@dev",
-        "ezsystems/ezplatform-demo-assets": "^1.0",
+        "ezsystems/ezplatform-demo-assets": "dev-master",
         "ezsystems/ezplatform-design-engine": "^3.0@dev",
         "ezsystems/ezplatform-graphql": "^2.0@dev",
         "ezsystems/ezplatform-http-cache": "^1.0@dev",
@@ -139,7 +139,8 @@
         ],
         "ezplatform-install": [
             "@php bin/console ezplatform:install ezplatform-ee-demo",
-            "@php bin/console ezplatform:graphql:generate-schema"
+            "@php bin/console ezplatform:graphql:generate-schema",
+            "@php bin/tmp_fix_roles.php"
         ]
     },
     "config": {

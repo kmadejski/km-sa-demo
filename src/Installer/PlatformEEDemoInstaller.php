@@ -43,12 +43,13 @@ class PlatformEEDemoInstaller extends CoreInstaller
             'kaliop:migration:migrate --path=src/MigrationVersions/content_type_group.yaml -v -n',
             'kaliop:migration:migrate --path=src/MigrationVersions/content_type.yaml -v -n',
             'kaliop:migration:migrate --path=src/MigrationVersions/folder.yaml -v -n',
+            'kaliop:migration:migrate --path=src/MigrationVersions/form.yaml -v -n',
             'kaliop:migration:migrate --path=src/MigrationVersions/images.yaml -v -n',
             'kaliop:migration:migrate --path=src/MigrationVersions/maison.yaml -v -n',
             'kaliop:migration:migrate --path=src/MigrationVersions/professionals_directory.yaml -v -n',
             'kaliop:migration:migrate --path=src/MigrationVersions/content.yaml -v -n',
             'kaliop:migration:migrate --path=src/MigrationVersions/professionals.yaml -v -n',
-//            'kaliop:migration:migrate --path=src/MigrationVersions/users.yml -v -n',
+//            'kaliop:migration:migrate --path=src/MigrationVersions/users.yaml -v -n',
         ];
 
         foreach ($migrationCommands as $cmd) {
