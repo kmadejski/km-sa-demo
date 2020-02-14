@@ -16,14 +16,11 @@ use Twig\TwigFunction;
 /**
  * Twig content extension for eZ Publish Demo specific usage.
  */
-class ContentDescriptionExtension extends AbstractExtension
+final class ContentDescriptionExtension extends AbstractExtension
 {
     /** @var \Psr\Log\LoggerInterface */
-    protected $logger;
+    private $logger;
 
-    /**
-     * @param \Psr\Log\LoggerInterface|null $logger
-     */
     public function __construct(
         LoggerInterface $logger = null
     ) {
@@ -31,7 +28,7 @@ class ContentDescriptionExtension extends AbstractExtension
     }
 
     /**
-     * @inheritDoc
+     * {@inheritdoc}
      */
     public function getFunctions(): array
     {
@@ -55,10 +52,6 @@ class ContentDescriptionExtension extends AbstractExtension
 
     /**
      * Returns description field Identifier or first Richtext field.
-     *
-     * @param \eZ\Publish\API\Repository\Values\Content\Content $content
-     *
-     * @return null|string
      */
     public function getDescriptionOrFirstRichtextFieldName(Content $content): ?string
     {

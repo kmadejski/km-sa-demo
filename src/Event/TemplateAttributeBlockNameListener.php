@@ -12,7 +12,7 @@ use EzSystems\EzPlatformPageFieldType\FieldType\Page\Block\Renderer\BlockRenderE
 use EzSystems\EzPlatformPageFieldType\FieldType\Page\Block\Renderer\Event\PreRenderEvent;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
-class TemplateAttributeBlockNameListener implements EventSubscriberInterface
+final class TemplateAttributeBlockNameListener implements EventSubscriberInterface
 {
     /**
      * @return array The event names to listen to
@@ -24,9 +24,6 @@ class TemplateAttributeBlockNameListener implements EventSubscriberInterface
         ];
     }
 
-    /**
-     * @param \EzSystems\EzPlatformPageFieldType\FieldType\Page\Block\Renderer\Event\PreRenderEvent $event
-     */
     public function onBlockPreRender(PreRenderEvent $event)
     {
         $blockValue = $event->getBlockValue();

@@ -11,7 +11,7 @@ namespace App\Security;
 use eZ\Bundle\EzPublishCoreBundle\DependencyInjection\Configuration\ConfigBuilderInterface;
 use eZ\Bundle\EzPublishCoreBundle\DependencyInjection\Security\PolicyProvider\PolicyProviderInterface;
 
-class PersonalizationPolicyProvider implements PolicyProviderInterface
+final class PersonalizationPolicyProvider implements PolicyProviderInterface
 {
     /**
      * {@inheritdoc}
@@ -20,8 +20,8 @@ class PersonalizationPolicyProvider implements PolicyProviderInterface
     {
         $configBuilder->addConfig([
             'personalization' => [
-                'view' => null
-            ]
+                'view' => null,
+            ],
         ]);
     }
 }
