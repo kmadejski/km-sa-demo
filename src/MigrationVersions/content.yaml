@@ -878,7 +878,7 @@
         name: Stores
         title: 'Find a Maison Store'
         banner:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/map.png
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/map.png
             filename: map.png
             alternativeText: maison-map
     references:

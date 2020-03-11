@@ -25,7 +25,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/kitchen-remodeling.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/kitchen-remodeling.jpg
             filename: kitchen-remodeling.jpg
             alternativeText: ''
     references:
@@ -58,7 +58,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/kitchen-remodeling2.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/kitchen-remodeling2.jpg
             filename: kitchen-remodeling2.jpg
             alternativeText: ''
     references:
@@ -90,7 +90,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bathroom.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bathroom.jpg
             filename: bathroom.jpg
             alternativeText: ''
     references:
@@ -122,7 +122,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bathroom2.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bathroom2.jpg
             filename: bathroom2.jpg
             alternativeText: ''
     references:
@@ -154,7 +154,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bathroom3.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bathroom3.jpg
             filename: bathroom3.jpg
             alternativeText: ''
     references:
@@ -186,7 +186,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bathroom5.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bathroom5.jpg
             filename: bathroom5.jpg
             alternativeText: ''
     references:
@@ -218,7 +218,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bathroom6.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bathroom6.jpg
             filename: bathroom6.jpg
             alternativeText: ''
     references:
@@ -251,7 +251,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bedroom.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bedroom.jpg
             filename: bedroom.jpg
             alternativeText: ''
     references:
@@ -284,7 +284,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bedroom2.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bedroom2.jpg
             filename: bedroom2.jpg
             alternativeText: ''
     references:
@@ -317,7 +317,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bedroom3.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bedroom3.jpg
             filename: bedroom3.jpg
             alternativeText: ''
     references:
@@ -350,7 +350,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bedroom4.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bedroom4.jpg
             filename: bedroom4.jpg
             alternativeText: ''
     references:
@@ -383,7 +383,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bedroom5.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bedroom5.jpg
             filename: bedroom5.jpg
             alternativeText: ''
     references:
@@ -416,7 +416,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bedroom6.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bedroom6.jpg
             filename: bedroom6.jpg
             alternativeText: ''
     references:
@@ -449,7 +449,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bedroom7.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bedroom7.jpg
             filename: bedroom7.jpg
             alternativeText: ''
     references:
@@ -482,7 +482,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bedroom8.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bedroom8.jpg
             filename: bedroom8.jpg
             alternativeText: ''
     references:
@@ -515,7 +515,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/bedroom9.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/bedroom9.jpg
             filename: bedroom9.jpg
             alternativeText: ''
     references:
@@ -548,7 +548,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/kitchen.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/kitchen.jpg
             filename: kitchen.jpg
             alternativeText: ''
     references:
@@ -581,7 +581,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/kitchen2.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/kitchen2.jpg
             filename: kitchen2.jpg
             alternativeText: ''
     references:
@@ -614,7 +614,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/kitchen3.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/kitchen3.jpg
             filename: kitchen3.jpg
             alternativeText: ''
     references:
@@ -647,7 +647,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/kitchen4.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/kitchen4.jpg
             filename: kitchen4.jpg
             alternativeText: ''
     references:
@@ -680,7 +680,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/kitchen5.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/kitchen5.jpg
             filename: kitchen5.jpg
             alternativeText: ''
     references:
@@ -713,7 +713,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/kitchen6.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/kitchen6.jpg
             filename: kitchen6.jpg
             alternativeText: ''
     references:
@@ -746,7 +746,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/kitchen7.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/kitchen7.jpg
             filename: kitchen7.jpg
             alternativeText: ''
     references:
@@ -779,7 +779,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/kitchen8.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/kitchen8.jpg
             filename: kitchen8.jpg
             alternativeText: ''
     references:
@@ -812,7 +812,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/living-room.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/living-room.jpg
             filename: living-room.jpg
             alternativeText: ''
     references:
@@ -845,7 +845,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/living-room2.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/living-room2.jpg
             filename: living-room2.jpg
             alternativeText: ''
     references:
@@ -878,7 +878,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/living-room3.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/living-room3.jpg
             filename: living-room3.jpg
             alternativeText: ''
     references:
@@ -911,7 +911,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/living-room4.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/living-room4.jpg
             filename: living-room4.jpg
             alternativeText: ''
     references:
@@ -943,7 +943,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/living-room5.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/living-room5.jpg
             filename: living-room5.jpg
             alternativeText: ''
     references:
@@ -976,7 +976,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/living-room7.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/living-room7.jpg
             filename: living-room7.jpg
             alternativeText: ''
     references:
@@ -1009,7 +1009,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/living-room8.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/living-room8.jpg
             filename: living-room8.jpg
             alternativeText: ''
     references:
@@ -1042,7 +1042,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/living-room9.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/living-room9.jpg
             filename: living-room9.jpg
             alternativeText: ''
     references:
@@ -1075,7 +1075,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/living-room10.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/living-room10.jpg
             filename: living-room10.jpg
             alternativeText: ''
     references:
@@ -1108,7 +1108,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/living-room11.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/living-room11.jpg
             filename: living-room11.jpg
             alternativeText: ''
     references:
@@ -1141,7 +1141,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/office.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/office.jpg
             filename: office.jpg
             alternativeText: ''
     references:
@@ -1174,7 +1174,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/office2.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/office2.jpg
             filename: office2.jpg
             alternativeText: ''
     references:
@@ -1206,7 +1206,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/office3.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/office3.jpg
             filename: office3.jpg
             alternativeText: ''
     references:
@@ -1239,7 +1239,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/office4.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/office4.jpg
             filename: office4.jpg
             alternativeText: ''
     references:
@@ -1272,7 +1272,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/office5.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/office5.jpg
             filename: office5.jpg
             alternativeText: ''
     references:
@@ -1305,7 +1305,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/outside.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/outside.jpg
             filename: outside.jpg
             alternativeText: ''
     references:
@@ -1338,7 +1338,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/outside2.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/outside2.jpg
             filename: outside2.jpg
             alternativeText: ''
     references:
@@ -1371,7 +1371,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/inspirations/outside3.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/maison/inspirations/catalog/outside3.jpg
             filename: outside3.jpg
             alternativeText: ''
     references:
@@ -1402,7 +1402,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/1.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/1.jpg
             filename: 1.jpg
             alternativeText: ''
     references:
@@ -1430,7 +1430,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/10.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/10.jpg
             filename: 10.jpg
             alternativeText: ''
     references:
@@ -1458,7 +1458,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/11.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/11.jpg
             filename: 11.jpg
             alternativeText: ''
     references:
@@ -1486,7 +1486,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/12.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/12.jpg
             filename: 12.jpg
             alternativeText: ''
     references:
@@ -1514,7 +1514,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/13.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/13.jpg
             filename: 13.jpg
             alternativeText: ''
     references:
@@ -1542,7 +1542,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/14.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/14.jpg
             filename: 14.jpg
             alternativeText: ''
     references:
@@ -1570,7 +1570,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/15.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/15.jpg
             filename: 15.jpg
             alternativeText: ''
     references:
@@ -1598,7 +1598,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/16.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/16.jpg
             filename: 16.jpg
             alternativeText: ''
     references:
@@ -1626,7 +1626,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/17.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/17.jpg
             filename: 17.jpg
             alternativeText: ''
     references:
@@ -1654,7 +1654,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/18.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/18.jpg
             filename: 18.jpg
             alternativeText: ''
     references:
@@ -1682,7 +1682,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/19.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/19.jpg
             filename: 19.jpg
             alternativeText: ''
     references:
@@ -1710,7 +1710,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/2.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/2.jpg
             filename: 2.jpg
             alternativeText: ''
     references:
@@ -1738,7 +1738,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/20.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/20.jpg
             filename: 20.jpg
             alternativeText: ''
     references:
@@ -1766,7 +1766,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/21.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/21.jpg
             filename: 21.jpg
             alternativeText: ''
     references:
@@ -1794,7 +1794,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/22.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/22.jpg
             filename: 22.jpg
             alternativeText: ''
     references:
@@ -1822,7 +1822,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/23.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/23.jpg
             filename: 23.jpg
             alternativeText: ''
     references:
@@ -1850,7 +1850,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/24.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/24.jpg
             filename: 24.jpg
             alternativeText: ''
     references:
@@ -1878,7 +1878,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/25.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/25.jpg
             filename: 25.jpg
             alternativeText: ''
     references:
@@ -1906,7 +1906,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/26.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/26.jpg
             filename: 26.jpg
             alternativeText: ''
     references:
@@ -1934,7 +1934,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/27.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/27.jpg
             filename: 27.jpg
             alternativeText: ''
     references:
@@ -1962,7 +1962,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/28.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/28.jpg
             filename: 28.jpg
             alternativeText: ''
     references:
@@ -1990,7 +1990,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/29.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/29.jpg
             filename: 29.jpg
             alternativeText: ''
     references:
@@ -2018,7 +2018,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/3.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/3.jpg
             filename: 3.jpg
             alternativeText: ''
     references:
@@ -2046,7 +2046,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/30.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/30.jpg
             filename: 30.jpg
             alternativeText: ''
     references:
@@ -2074,7 +2074,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/31.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/31.jpg
             filename: 31.jpg
             alternativeText: ''
     references:
@@ -2102,7 +2102,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/32.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/32.jpg
             filename: 32.jpg
             alternativeText: ''
     references:
@@ -2130,7 +2130,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/33.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/33.jpg
             filename: 33.jpg
             alternativeText: ''
     references:
@@ -2158,7 +2158,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/34.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/34.jpg
             filename: 34.jpg
             alternativeText: ''
     references:
@@ -2186,7 +2186,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/4.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/4.jpg
             filename: 4.jpg
             alternativeText: ''
     references:
@@ -2214,7 +2214,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/5.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/5.jpg
             filename: 5.jpg
             alternativeText: ''
     references:
@@ -2242,7 +2242,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/6.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/6.jpg
             filename: 6.jpg
             alternativeText: ''
     references:
@@ -2270,7 +2270,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/7.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/7.jpg
             filename: 7.jpg
             alternativeText: ''
     references:
@@ -2298,7 +2298,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/8.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/8.jpg
             filename: 8.jpg
             alternativeText: ''
     references:
@@ -2326,7 +2326,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/9.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/9.jpg
             filename: 9.jpg
             alternativeText: ''
     references:
@@ -2354,7 +2354,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/andre-furtado.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/andre-furtado.jpg
             filename: andre-furtado.jpg
             alternativeText: ''
     references:
@@ -2382,7 +2382,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/christian-buehner.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/christian-buehner.jpg
             filename: christian-buehner.jpg
             alternativeText: ''
     references:
@@ -2410,7 +2410,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/josh-howard.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/josh-howard.jpg
             filename: josh-howard.jpg
             alternativeText: ''
     references:
@@ -2438,7 +2438,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/jurica-koletic.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/jurica-koletic.jpg
             filename: jurica-koletic.jpg
             alternativeText: ''
     references:
@@ -2466,7 +2466,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/lucas-sankey.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/lucas-sankey.jpg
             filename: lucas-sankey.jpg
             alternativeText: ''
     references:
@@ -2494,7 +2494,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/michael-dam.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/michael-dam.jpg
             filename: michael-dam.jpg
             alternativeText: ''
     references:
@@ -2522,7 +2522,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/michael-frattaroli.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/michael-frattaroli.jpg
             filename: michael-frattaroli.jpg
             alternativeText: ''
     references:
@@ -2550,7 +2550,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/professional-1.jpeg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/professional-1.jpeg
             filename: professional-1.jpeg
             alternativeText: ''
     references:
@@ -2578,7 +2578,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/professional-2.jpeg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/professional-2.jpeg
             filename: professional-2.jpeg
             alternativeText: ''
     references:
@@ -2606,7 +2606,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/professional-3.jpeg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/professional-3.jpeg
             filename: professional-3.jpeg
             alternativeText: ''
     references:
@@ -2634,7 +2634,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/pros/ramy-kabalan.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/professional/ramy-kabalan.jpg
             filename: ramy-kabalan.jpg
             alternativeText: ''
     references:
@@ -2668,7 +2668,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/1.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/1.jpg
             filename: 1.jpg
             alternativeText: ''
     references:
@@ -2696,7 +2696,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/2.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/2.jpg
             filename: 2.jpg
             alternativeText: ''
     references:
@@ -2724,7 +2724,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/3.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/3.jpg
             filename: 3.jpg
             alternativeText: ''
     references:
@@ -2752,7 +2752,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/4.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/4.jpg
             filename: 4.jpg
             alternativeText: ''
     references:
@@ -2780,7 +2780,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/5.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/5.jpg
             filename: 5.jpg
             alternativeText: ''
     references:
@@ -2808,7 +2808,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/6.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/6.jpg
             filename: 6.jpg
             alternativeText: ''
     references:
@@ -2836,7 +2836,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/7.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/7.jpg
             filename: 7.jpg
             alternativeText: ''
     references:
@@ -2864,7 +2864,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/8.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/8.jpg
             filename: 8.jpg
             alternativeText: ''
     references:
@@ -2892,7 +2892,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/9.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/9.jpg
             filename: 9.jpg
             alternativeText: ''
     references:
@@ -2920,7 +2920,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/10.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/10.jpg
             filename: 10.jpg
             alternativeText: ''
     references:
@@ -2948,7 +2948,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/11.png
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/11.png
             filename: 11.png
             alternativeText: ''
     references:
@@ -2976,7 +2976,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/12.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/12.jpg
             filename: 12.jpg
             alternativeText: ''
     references:
@@ -3004,7 +3004,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/13.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/13.jpg
             filename: 13.jpg
             alternativeText: ''
     references:
@@ -3032,7 +3032,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/14.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/14.jpg
             filename: 14.jpg
             alternativeText: ''
     references:
@@ -3060,7 +3060,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/15.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/15.jpg
             filename: 15.jpg
             alternativeText: ''
     references:
@@ -3088,7 +3088,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/16.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/16.jpg
             filename: 16.jpg
             alternativeText: ''
     references:
@@ -3116,7 +3116,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/17.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/17.jpg
             filename: 17.jpg
             alternativeText: ''
     references:
@@ -3144,7 +3144,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/18.png
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/18.png
             filename: 18.png
             alternativeText: ''
     references:
@@ -3172,7 +3172,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/19.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/19.jpg
             filename: 19.jpg
             alternativeText: ''
     references:
@@ -3200,7 +3200,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/20.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/20.jpg
             filename: 20.jpg
             alternativeText: ''
     references:
@@ -3228,7 +3228,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/21.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/21.jpg
             filename: 21.jpg
             alternativeText: ''
     references:
@@ -3256,7 +3256,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/22.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/22.jpg
             filename: 22.jpg
             alternativeText: ''
     references:
@@ -3284,7 +3284,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/23.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/23.jpg
             filename: 23.jpg
             alternativeText: ''
     references:
@@ -3312,7 +3312,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/24.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/24.jpg
             filename: 24.jpg
             alternativeText: ''
     references:
@@ -3340,7 +3340,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/25.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/25.jpg
             filename: 25.jpg
             alternativeText: ''
     references:
@@ -3368,7 +3368,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/26.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/26.jpg
             filename: 26.jpg
             alternativeText: ''
     references:
@@ -3396,7 +3396,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/27.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/27.jpg
             filename: 27.jpg
             alternativeText: ''
     references:
@@ -3424,7 +3424,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/28.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/28.jpg
             filename: 28.jpg
             alternativeText: ''
     references:
@@ -3452,7 +3452,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/29.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/29.jpg
             filename: 29.jpg
             alternativeText: ''
     references:
@@ -3480,7 +3480,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/30.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/30.jpg
             filename: 30.jpg
             alternativeText: ''
     references:
@@ -3508,7 +3508,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/31.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/31.jpg
             filename: 31.jpg
             alternativeText: ''
     references:
@@ -3536,7 +3536,7 @@
         caption:
             xml: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<section xmlns=\"http://docbook.org/ns/docbook\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"5.0-variant ezpublish-1.0\"/>\n"
         image:
-            path: vendor/ezsystems/ezplatform-demo-assets/images/32.jpg
+            path: vendor/ezsystems/ezplatform-demo-assets/images/professionals/catalog/32.jpg
             filename: 32.jpg
             alternativeText: ''
     references:
