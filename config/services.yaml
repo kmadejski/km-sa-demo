@@ -27,12 +27,3 @@ services:
     _defaults:
         autowire: true      # Automatically injects dependencies in your services.
         autoconfigure: true # Automatically registers your services as commands, event subscribers, etc.
-
-    # Those service definitions were added to fix missing command registration in an external package
-    JMS\TranslationBundle\Command\ExtractTranslationCommand:
-        tags:
-            - { name: console.command }
-
-    JMS\TranslationBundle\Command\ResourcesListCommand:
-        tags:
-            - { name: console.command }
