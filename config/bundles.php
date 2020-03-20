@@ -69,5 +69,5 @@ return [
     Hautelook\TemplatedUriBundle\HautelookTemplatedUriBundle::class => ['all' => true],
     Kaliop\eZMigrationBundle\eZMigrationBundle::class => ['all' => true],
     EzSystems\EzRecommendationClientBundle\EzRecommendationClientBundle::class => ['all' => true],
-    EzSystems\PersonalizedBlockBundle\EzSystemsPersonalizedBlockBundle::class
+    EzSystems\PersonalizedBlockBundle\EzSystemsPersonalizedBlockBundle::class => ['all' => true],
 ];
