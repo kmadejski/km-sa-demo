@@ -9,15 +9,14 @@ declare(strict_types=1);
 namespace App\Service\Search\QueryExecutor;
 
 use App\QueryType\MenuQueryType;
+use App\Service\Search\QueryExecutorInterface;
+use App\Value\MenuQueryParameters;
+use App\Value\QueryParameters;
 use eZ\Publish\API\Repository\SearchService as SearchServiceInterface;
 use eZ\Publish\API\Repository\Values\Content\Search\SearchResult;
 
-final class LocationSearchQueryExecutor
+final class LocationSearchQueryExecutor implements QueryExecutorInterface
 {
-    const MENU_ITEM_LIMIT = 400;
-    const MENU_CONTENT_TYPES = ['folder'];
-    const MENU_CONTENT_DEPTH = 5;
-
     /** @var \eZ\Publish\API\Repository\SearchService */
     private $searchService;
 
@@ -32,15 +31,21 @@ final class LocationSearchQueryExecutor
         $this->menuQueryType = $menuQueryType;
     }
 
-    public function getResults($pathString): SearchResult
+    /**
+     * @return \eZ\Publish\API\Repository\Values\Content\Search\SearchResult
+     *
+     * @throws \eZ\Publish\API\Repository\Exceptions\InvalidArgumentException
+     */
+    public function getResults(QueryParameters $queryParameters): SearchResult
     {
+        /** @var MenuQueryParameters $queryParameters */
         $query = $this->menuQueryType->getQuery([
-            'path_string' => $pathString,
-            'included_content_type_identifier' => self::MENU_CONTENT_TYPES,
-            'depth' => self::MENU_CONTENT_DEPTH,
+            'path_string' => $queryParameters->getPathString(),
+            'included_content_type_identifier' => $queryParameters->getIncludedContentTypeIdentifiers(),
+            'depth' => $queryParameters->getDepth(),
         ]);
 
-        $query->limit = self::MENU_ITEM_LIMIT;
+        $query->limit = $queryParameters->getLimit();
 
         return $this->searchService->findLocations($query);
     }

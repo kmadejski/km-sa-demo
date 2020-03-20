@@ -6,50 +6,51 @@
  */
 declare(strict_types=1);
 
-namespace App\Menu;
+namespace App\Menu\CacheAware;
 
 use App\Service\Cache\CacheServiceInterface;
-use App\Service\Search\QueryExecutor\LocationSearchQueryExecutor;
+use App\Service\Search\QueryExecutorInterface;
 use App\Service\Search\SearchResultLocationExtractor;
 use App\Tree\LocationTreeBuilder;
-use App\Tree\Values\MenuItem;
+use App\Value\MenuQueryParameters;
 
-final class MenuGenerator
+final class MenuGenerator implements MenuGeneratorInterface
 {
-    const CACHE_KEY_MENU = 'app_professionals_listing_menu';
-
     /** @var \App\Service\Cache\CacheServiceInterface */
     private $cacheService;
 
-    /** @var \App\Service\Search\QueryExecutor\LocationSearchQueryExecutor */
+    /** @var \App\Service\Search\QueryExecutorInterface */
     private $executor;
 
     public function __construct(
         CacheServiceInterface $cacheService,
-        LocationSearchQueryExecutor $executor
+        QueryExecutorInterface $executor
     ) {
         $this->cacheService = $cacheService;
         $this->executor = $executor;
     }
 
     /**
-     * @return MenuItem[]
+     * @inheritDoc
+     *
+     * @throws \eZ\Publish\API\Repository\Exceptions\InvalidArgumentException
      */
-    public function generate(string $pathString, int $rootLocationId): array
+    public function generate(MenuQueryParameters $queryParameters, string $key): array
     {
-        $item = $this->cacheService->getItem(self::CACHE_KEY_MENU);
+        $item = $this->cacheService->getItem($key);
 
         if ($item->isHit()) {
             return $item->get();
         }
 
-        $locationSearchResults = $this->executor->getResults($pathString);
+        $locationSearchResults = $this->executor->getResults($queryParameters);
         $menuItems = SearchResultLocationExtractor::extract($locationSearchResults);
-        $menu = LocationTreeBuilder::build($menuItems, $rootLocationId);
+
+        $menu = LocationTreeBuilder::build($menuItems, $queryParameters->getRootLocationId());
 
         $item->expiresAfter((int) $this->cacheService->getCacheExpirationTime());
         $item->set($menu);
-        $item->tag('location-' . $rootLocationId);
+        $item->tag('location-' . $queryParameters->getRootLocationId());
 
         $this->cacheService->save($item);
 

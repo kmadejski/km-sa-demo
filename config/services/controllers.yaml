@@ -21,11 +21,9 @@ services:
 
     App\Controller\MenuController:
         public: true
-        arguments:
-            $topMenuParentLocationId: '%app.top_menu.parent_location_id%'
-            $topMenuContentTypeIdentifier: '%app.top_menu.included_content_type_identifier%'
 
-    App\Controller\ProfessionalsController:
+    app_menu:
+        alias: App\Controller\MenuController
         public: true
 
     App\Controller\ContactFormController:

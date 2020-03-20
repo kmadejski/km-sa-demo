@@ -137,7 +137,7 @@ ezplatform:
             design: maison
             content:
                 tree_root:
-                    location_id: 182
+                    location_id: 188
 
         admin_group:
             # System languages. Note that by default, content, content types, and other data are in eng-GB locale,
@@ -176,7 +176,7 @@ ezplatform:
             design: professionals
             content:
                 tree_root:
-                    location_id: 183
+                    location_id: 189
 
     url_alias:
         slug_converter:
