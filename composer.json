@@ -11,8 +11,7 @@
         }
     ],
     "repositories": [
-        { "type": "composer", "url": "https://updates.ez.no/ttl" },
-        { "type": "git", "url": "https://github.com/damianz5/ezmigrationbundle.git" }
+        { "type": "composer", "url": "https://updates.ez.no/ttl" }
     ],
     "require": {
         "php": "^7.3",
