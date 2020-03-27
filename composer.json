@@ -45,7 +45,7 @@
         "ezsystems/ezplatform-user": "^2.0@dev",
         "ezsystems/ezplatform-version-comparison": "^1.0@dev",
         "ezsystems/ezplatform-workflow": "^2.0@dev",
-        "ezsystems/ezrecommendation-client": "dev-symfony5 as 2.0",
+        "ezsystems/ezrecommendation-client": "^2.0@dev",
         "ezsystems/ezstudio-personalized-block": "^3.0@dev",
         "ezsystems/repository-forms": "^3.0@dev",
         "ezsystems/templated-uri-bundle": "^3.3@dev",
