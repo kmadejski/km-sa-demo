@@ -1,0 +1,11 @@
+<div class="row my-7 text-center">
+    <div class="col-12">
+        <div class="d-flex bg-grey-very-light flex-column p-5">
+            {% set location = app_location_by_remote_id(subscribe_form_remote_id) %}
+            {{ render_esi(controller('ez_content:viewAction', {
+                locationId: location.id,
+                viewType: 'embed'
+            })) }}
+        </div>
+    </div>
+</div>

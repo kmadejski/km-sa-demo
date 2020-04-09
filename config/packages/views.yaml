@@ -48,6 +48,28 @@ ezplatform:
                         match:
                             Identifier\ContentType: store
 
+                    blog:
+                        controller: "ez_query:pagingQueryAction"
+                        template: "@ezdesign/full/blog.html.twig"
+                        match:
+                            Identifier\ContentType: blog
+                        params:
+                            query:
+                                query_type: "App:Children"
+                                parameters:
+                                    parent_location_id: "@=location.id"
+                                    included_content_type_identifier: 'blog_post'
+                                    sort_clauses: 'ascending'
+                                assign_results_to: blog_post_list
+                            subscribe_form_remote_id: "%app.subscribe_form.remote_id%"
+
+                    blog_post:
+                        template: "@ezdesign/full/blog_post.html.twig"
+                        match:
+                            Identifier\ContentType: blog_post
+                        params:
+                            subscribe_form_remote_id: "%app.subscribe_form.remote_id%"
+
                     contact:
                         controller: App\Controller\ContactFormController:showContactFormAction
                         template: "@ezdesign/full/contact.html.twig"
@@ -64,6 +86,18 @@ ezplatform:
                         template: "@ezdesign/card/store.html.twig"
                         match:
                             Identifier\ContentType: store
+
+                    blog_post:
+                        template: "@ezdesign/card/blog_post.html.twig"
+                        match:
+                            Identifier\ContentType: blog_post
+
+                embed:
+                    form:
+                        template: "@ezdesign/embed/subscribe.html.twig"
+                        match:
+                            Identifier\ContentType: form
+
         professionals:
             content_view:
                 full:
