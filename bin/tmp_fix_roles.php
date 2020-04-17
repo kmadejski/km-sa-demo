@@ -2,7 +2,7 @@
 
 use App\Kernel;
 use eZ\Publish\API\Repository\Repository;
-use Symfony\Component\Debug\Debug;
+use Symfony\Component\ErrorHandler\Debug;
 use Symfony\Component\HttpFoundation\Request;
 
 require dirname(__DIR__) . '/config/bootstrap.php';
