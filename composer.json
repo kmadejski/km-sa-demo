@@ -11,8 +11,7 @@
         }
     ],
     "repositories": [
-        { "type": "composer", "url": "https://updates.ez.no/ttl" },
-        { "type": "git", "url": "https://github.com/damianz5/ezmigrationbundle.git" }
+        { "type": "composer", "url": "https://updates.ez.no/ttl" }
     ],
     "require": {
         "php": "^7.3",
@@ -54,7 +53,7 @@
         "hautelook/templated-uri-bundle": "^3.2",
         "friendsofsymfony/jsrouting-bundle": "^2.5",
         "gregwar/captcha-bundle": "^2.0",
-        "kaliop/ezmigrationbundle": "dev-ezp3-kernel-3.x",
+        "ezsystems/ezmigrationbundle": "^1.0.0@dev",
         "knplabs/knp-menu-bundle": "^3.0",
         "monolog/monolog": "^2.0",
         "php-http/guzzle6-adapter": "^2.0",
@@ -151,7 +150,8 @@
         "ezplatform-install": [
             "@php bin/console ezplatform:install ezplatform-ee-demo",
             "@php bin/console ezplatform:graphql:generate-schema",
-            "@php bin/tmp_fix_roles.php"
+            "@php bin/tmp_fix_roles.php",
+            "@php bin/tmp_cache_warmer.php"
         ],
         "fix-cs": "@php ./bin/php-cs-fixer fix -v --show-progress=estimating"
     },

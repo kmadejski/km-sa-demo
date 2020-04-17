@@ -16,7 +16,7 @@ use App\Values\MenuQueryParameters;
 
 final class MenuGenerator implements MenuGeneratorInterface
 {
-    /** @var \App\Cache\CacheServiceInterface */
+    /** @var \App\Service\Cache\CacheServiceInterface */
     private $cacheService;
 
     /** @var \App\Search\QueryExecutorInterface */
