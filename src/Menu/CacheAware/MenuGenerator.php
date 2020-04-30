@@ -55,6 +55,8 @@ final class MenuGenerator implements MenuGeneratorInterface
         $item->expiresAfter((int) $this->cacheService->getCacheExpirationTime());
         $item->set($menu);
         $item->tag('location-' . $queryParameters->getRootLocationId());
+        $item->tag('ez-location-' . $queryParameters->getRootLocationId() . '-eng-GB|1');
+        $item->tag('location-path-' . $queryParameters->getRootLocationId());
 
         $this->cacheService->save($item);
 
