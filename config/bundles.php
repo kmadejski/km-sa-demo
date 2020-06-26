@@ -66,4 +66,5 @@ return [
     Kaliop\eZMigrationBundle\eZMigrationBundle::class => ['all' => true],
     EzSystems\EzRecommendationClientBundle\EzRecommendationClientBundle::class => ['all' => true],
     EzSystems\PersonalizedBlockBundle\EzSystemsPersonalizedBlockBundle::class => ['all' => true],
+    Symfony\Bundle\WebServerBundle\WebServerBundle::class => ['dev' => true],
 ];

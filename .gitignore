@@ -67,9 +67,6 @@
 /public/.htaccess
 
 composer.phar
-composer.lock
-symfony.lock
-yarn.lock
 .buildpath
 .project
 .settings/
@@ -119,3 +116,7 @@ yarn-error.log
 /.php_cs
 /.php_cs.cache
 ###< friendsofphp/php-cs-fixer ###
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
